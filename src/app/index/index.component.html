@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Line Notify</title>
+
 <!-- Integrating the LIFF SDK with the LIFF app 
         Specify the CDN path 
     <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
@@ -30,7 +31,7 @@
             if(liff.isLoggedId()){
                 getUserProfile()
             }else{
-                liff.login({ redirectUri: "https://thitirat1997.github.io/project-line-liff/index"});
+                liff.login({ redirectUri: "http://localhost:4200/index"});
             }
         }
         main();
