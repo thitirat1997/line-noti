@@ -1,4 +1,3 @@
-<p>index works!</p>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +30,7 @@
             if(liff.isLoggedId()){
                 getUserProfile()
             }else{
-                liff.logIn()
+                liff.login({ redirectUri: "https://thitirat1997.github.io/project-line-liff/index"});
             }
         }
         main();
